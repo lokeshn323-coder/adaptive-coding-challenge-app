@@ -1,0 +1,58 @@
+{
+  "lokesh": {
+    "level": "hard",
+    "correct_streak": 0,
+    "wrong_streak": 0,
+    "total_time_seconds": 496,
+    "hints_used": 1
+  },
+  "Lokesh": {
+    "level": "beginner",
+    "correct_streak": 0,
+    "wrong_streak": 0,
+    "total_time_seconds": 1349,
+    "hints_used": 1
+  },
+  "loke": {
+    "level": "beginner",
+    "correct_streak": 0,
+    "wrong_streak": 1,
+    "total_time_seconds": 51,
+    "hints_used": 0
+  },
+  "loki": {
+    "level": "hard",
+    "correct_streak": 0,
+    "wrong_streak": 1,
+    "total_time_seconds": 529,
+    "hints_used": 0
+  },
+  "akshay": {
+    "level": "beginner",
+    "correct_streak": 1,
+    "wrong_streak": 0,
+    "total_time_seconds": 102,
+    "hints_used": 0
+  },
+  "tester": {
+    "level": "intermediate",
+    "correct_streak": 0,
+    "wrong_streak": 0,
+    "total_time_seconds": 462,
+    "hints_used": 0
+  },
+  "Akshay": {
+    "level": "beginner",
+    "correct_streak": 0,
+    "wrong_streak": 0,
+    "total_time_seconds": 1071,
+    "hints_used": 0
+  },
+  "av": {
+    "level": "beginner",
+    "correct_streak": 0,
+    "wrong_streak": 0,
+    "total_time_seconds": 280,
+    "hints_used": 1
+  }
+}

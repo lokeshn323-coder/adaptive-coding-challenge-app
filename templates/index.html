@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adaptive Coding Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Adaptive Coding Challenge</h1>
+
+        <div id="loginSection">
+            <input type="text" id="username" placeholder="Enter your name">
+            <button id="startBtn">Start Challenge</button>
+        </div>
+
+        <div id="challengeSection" style="display:none;">
+            <div id="challengeHeader">
+                <p id="levelInfo" class="level-badge"></p>
+                <span id="aiGenBadge" class="ai-badge" style="display:none;">AI Generated</span>
+                <span id="timerDisplay" class="timer">⏱ Time: 0s</span>
+            </div>
+
+            <h2 id="challengeText"></h2>
+
+            <textarea id="codeEditor" placeholder="Write your Python function here..."></textarea>
+
+            <div class="btn-row">
+                <button id="submitBtn">▶ Submit Solution</button>
+                <button id="hintBtn" class="hint-btn">💡 Get Hint</button>
+            </div>
+
+            <div id="hintBox" class="hint-box"></div>
+            <div id="feedback" class="feedback"></div>
+            <div id="statsBox" class="stats-box"></div>
+
+            <div id="solutionSection" style="display:none;">
+                <h4>Justification:</h4>
+                <p id="justification"></p>
+                <button id="retryBtn">🔁 Try Again</button>
+            </div>
+        </div>
+
+        <div id="leaderboardSection">
+            <h2>🏆 Leaderboard</h2>
+            <ul id="leaderboardList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

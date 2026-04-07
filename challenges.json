@@ -1,0 +1,134 @@
+{
+  "beginner": [
+    {
+      "question": "Write a function add(a, b) that returns the sum of two numbers.",
+      "function": "add",
+      "num_args": 2,
+      "tests": [[[1, 2], 3], [[5, 7], 12]],
+      "hint": "Use the + operator."
+    },
+    {
+      "question": "Write a function square(n) that returns n squared.",
+      "function": "square",
+      "num_args": 1,
+      "tests": [[2, 4], [5, 25]],
+      "hint": "Multiply n by itself or use n ** 2."
+    },
+    {
+      "question": "Write a function is_even(n) that returns True if n is even, False otherwise.",
+      "function": "is_even",
+      "num_args": 1,
+      "tests": [[2, true], [3, false]],
+      "hint": "Use the modulus operator %."
+    },
+    {
+      "question": "Write a function max_of_two(a, b) that returns the larger of two numbers.",
+      "function": "max_of_two",
+      "num_args": 2,
+      "tests": [[[3, 7], 7], [[10, 4], 10]],
+      "hint": "Use an if statement to compare the two values."
+    },
+    {
+      "question": "Write a function absolute_value(n) that returns the absolute value of n.",
+      "function": "absolute_value",
+      "num_args": 1,
+      "tests": [[-5, 5], [3, 3]],
+      "hint": "Use the abs() function or an if statement."
+    },
+    {
+      "question": "Write a function celsius_to_fahrenheit(c) that converts Celsius to Fahrenheit.",
+      "function": "celsius_to_fahrenheit",
+      "num_args": 1,
+      "tests": [[0, 32.0], [100, 212.0]],
+      "hint": "Formula: (c * 9/5) + 32"
+    }
+  ],
+  "intermediate": [
+    {
+      "question": "Write a function factorial(n) that returns the factorial of n. Remember: 0! = 1.",
+      "function": "factorial",
+      "num_args": 1,
+      "tests": [[0, 1], [5, 120]],
+      "hint": "Use a loop multiplying from 1 to n, or use recursion with a base case."
+    },
+    {
+      "question": "Write a function is_palindrome(s) that returns True if the string s reads the same forwards and backwards.",
+      "function": "is_palindrome",
+      "num_args": 1,
+      "tests": [["madam", true], ["hello", false]],
+      "hint": "Compare the string with its reverse using s[::-1]."
+    },
+    {
+      "question": "Write a function count_vowels(s) that returns the number of vowels in the string s.",
+      "function": "count_vowels",
+      "num_args": 1,
+      "tests": [["hello", 2], ["xyz", 0]],
+      "hint": "Loop through each character and check if it is in 'aeiou'."
+    },
+    {
+      "question": "Write a function sum_list(lst) that returns the sum of all numbers in a list.",
+      "function": "sum_list",
+      "num_args": 1,
+      "tests": [[[1, 2, 3], 6], [[10, 20], 30]],
+      "hint": "Use a for loop to add each element, or use the built-in sum()."
+    },
+    {
+      "question": "Write a function reverse_string(s) that returns the string s reversed.",
+      "function": "reverse_string",
+      "num_args": 1,
+      "tests": [["hello", "olleh"], ["abc", "cba"]],
+      "hint": "Use slicing: s[::-1]"
+    },
+    {
+      "question": "Write a function find_max(lst) that returns the largest number in a list.",
+      "function": "find_max",
+      "num_args": 1,
+      "tests": [[[3, 1, 7, 2], 7], [[5, 5, 5], 5]],
+      "hint": "Use a loop to track the largest value seen so far."
+    }
+  ],
+  "hard": [
+    {
+      "question": "Write a function fibonacci(n) that returns the nth Fibonacci number (0-indexed). fibonacci(0)=0, fibonacci(1)=1.",
+      "function": "fibonacci",
+      "num_args": 1,
+      "tests": [[0, 0], [7, 13]],
+      "hint": "Each number is the sum of the two before it. Use a loop or recursion with a base case."
+    },
+    {
+      "question": "Write a function is_prime(n) that returns True if n is a prime number, False otherwise.",
+      "function": "is_prime",
+      "num_args": 1,
+      "tests": [[7, true], [9, false]],
+      "hint": "Check divisibility from 2 up to the square root of n."
+    },
+    {
+      "question": "Write a function reverse_words(s) that reverses the order of words in a sentence.",
+      "function": "reverse_words",
+      "num_args": 1,
+      "tests": [["hello world", "world hello"], ["one two three", "three two one"]],
+      "hint": "Split the string into words, reverse the list, then join with spaces."
+    },
+    {
+      "question": "Write a function flatten(lst) that takes a list of lists and returns a single flat list of all elements.",
+      "function": "flatten",
+      "num_args": 1,
+      "tests": [[[1, 2], [3, 4]], [1, 2, 3, 4]],
+      "hint": "Use a nested loop: loop over the outer list, then over each inner list."
+    },
+    {
+      "question": "Write a function count_words(s) that returns a dictionary with each word as a key and its frequency as the value.",
+      "function": "count_words",
+      "num_args": 1,
+      "tests": [["hello world hello", {"hello": 2, "world": 1}]],
+      "hint": "Split the string into words and use a dictionary to count occurrences."
+    },
+    {
+      "question": "Write a function is_anagram(s1, s2) that returns True if s1 and s2 are anagrams of each other.",
+      "function": "is_anagram",
+      "num_args": 2,
+      "tests": [[["listen", "silent"], true], [["hello", "world"], false]],
+      "hint": "Sort both strings and compare, or use a frequency count."
+    }
+  ]
+}
