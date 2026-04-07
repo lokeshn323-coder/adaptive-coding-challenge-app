@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify, send_from_directory
+from flask import render_template
 import json
 import os
 import random
@@ -290,7 +291,7 @@ def _record_wrong(user):
 
 @app.route('/')
 def index():
-    return send_from_directory('static', 'index.html')
+    return render_template('index.html')
 
 
 @app.route('/generate_challenge', methods=['POST'])
